@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#lampImage {
+    width: 100px;
+    height: 100px;
+    transition: 0.2s;
+}
+
+#lampImage:hover {
+    transform: scale(1.1);
+}
+
+button {
+    padding: 10px 10px;
+    font-size: 16px;
+    margin: 10px;
+    background-color: #1e90ff;
+    color: #fff;
+    border-radius: 5px;
+}
